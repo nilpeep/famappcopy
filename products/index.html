@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek E-Ticaret Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="/cart/cart.html">Sepetim</a></li>
+                <li><a href="/user/hesabim.html">Hesabım</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="/imgs/handcream.jpeg" alt="El Kremi">
+            <h2>El Kremi</h2>
+            <p>Fiyat: $5.00</p>
+            <button class="add-to-cart" data-name="Ürün Adı" data-price="50.00">Sepete Ekle</button>
+        </section>
+
+        <section class="product">
+            <img src="/imgs/lipstick.webp" alt="Ruj">
+            <h2>Ruj</h2>
+            <p>Fiyat: $10.00</p>
+            <button class="add-to-cart" data-name="Ürün Adı" data-price="40.00">Sepete Ekle</button>
+        </section>
+        <section class="product">
+            <img src="/imgs/milk.webp" alt="Sut">
+            <h2>Sut</h2>
+            <p>Fiyat: $10.00</p>
+            <button class="add-to-cart" data-name="Sut" data-price="40.00">Sepete Ekle</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; KAPLAN TICARET</p>
+    </footer>
+
+    <!-- JavaScript dosyasını ekleyin -->
+    <script src="script.js"></script>
+</body>
+</html>
